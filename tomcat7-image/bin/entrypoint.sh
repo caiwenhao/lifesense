@@ -26,4 +26,5 @@ fi
 
 OPTS="$OPTS -Dops.hostname=$HOSTNAME"
 JAVA_OPTS="${JAVA_OPTS} ${DISCONF_OPTS} ${TingYun} ${OPTS} -XX:+UseCMSCompactAtFullCollection -XX:CMSFullGCsBeforeCompaction=0 -XX:SurvivorRatio=1 -XX:+UseConcMarkSweepGC -XX:+CMSParallelRemarkEnabled -XX:+UseFastAccessorMethods -XX:CMSInitiatingOccupancyFraction=70 -XX:SoftRefLRUPolicyMSPerMB=0 -XX:+UseParNewGC"
-cd - >/dev/null 2>&1
+cd /usr/local/tomcat/bin/
+./catalina.sh run

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/github/.idea/github.iml" filepath="$USER_HOME$/github/.idea/github.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/lifesense.iml" filepath="$PROJECT_DIR$/.idea/lifesense.iml" />
+      <module fileurl="file://$USER_HOME$/lx-ansible/.idea/lx-ansible.iml" filepath="$USER_HOME$/lx-ansible/.idea/lx-ansible.iml" />
+      <module fileurl="file://$USER_HOME$/lxyd_jenkins/.idea/lxyd_jenkins.iml" filepath="$USER_HOME$/lxyd_jenkins/.idea/lxyd_jenkins.iml" />
+    </modules>
+  </component>
+</project>
